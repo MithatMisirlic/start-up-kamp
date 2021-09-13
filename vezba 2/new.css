@@ -1,0 +1,26 @@
+#map-div{
+    background-color: rgb(0, 15, 58);
+    text-align: left;
+    border: 1px solid black;
+}
+#Feedback-div{
+    background-color: rgb(10, 22, 56);
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 48%;
+}
+
+td, th {
+  border: 1px solid rgb(0, 0, 0);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(22, 43, 100);
+}

@@ -1,0 +1,46 @@
+.main-div{
+    width: 80wv;
+    height: 30vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.block-1,.block-2,.block-3,.block-4,.block-5,.block-6,.block-7,.block-8{
+    width:100px;
+    height:100px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.block-1:hover{
+    transition: all 1s ease;
+    transform: rotate(30deg);
+}
+.block-2:hover{
+    transition: all 1s ease;
+    transform: matrix(1,2,-1,2,10,10);
+}
+.block-3:hover{
+    transition: all 1s ease;
+    transform: translate(50%,50%);
+}
+.block-4:hover{
+    transition: all 1s ease;
+    transform: translateX(50%);
+}
+.block-5:hover{
+    transition: all 1s ease;
+    transform: translateY(50%);
+}
+.block-6:hover{
+    transition: all 1s ease;
+    transform: scaleX(2);
+}
+.block-7:hover{
+    transition: all 1s ease;
+    transform: scaleY(0.5);
+}
+.block-8:hover{
+    transition: all 1s ease;
+    transform: skew(30deg,30deg);
+}

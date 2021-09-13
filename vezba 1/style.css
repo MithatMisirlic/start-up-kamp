@@ -1,0 +1,91 @@
+body{
+    line-height: 1.5;
+}
+.top-div{
+    top: 0;
+    position: fixed;
+    width: 98vw;
+    height: 10vh;
+    font-size: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-1{
+    background-color: black;
+    color:whitesmoke;
+}
+.text-2{
+    justify-self: center;
+    align-self: center;
+    margin-left: 400px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.text-3{
+    margin-left: 450px;
+    color: whitesmoke;
+}
+.home-link:hover,
+.about-link:hover,
+.where-link:hover,
+.menu-link:hover{
+    background-color: whitesmoke;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-style: oblique;
+}
+a:hover{
+    color:black
+}
+.header-1{
+    display: flex;
+    background-image: url("coffeehouse.jpg");
+    width: 98vw;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: flex-end;
+}
+.about-div{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    max-width: 700px;
+}
+.main-h5{
+    margin: 10px 0;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.pharagraph-1{
+    border-left: 6px solid grey;
+    background-color: rgb(238, 238, 238);
+    width: 500px;
+    margin-left: 90px;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.inputs{
+    width:100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border:1px solid black;
+}
+.map{
+    width: 50vw;
+}
+.Menu{
+    justify-content: center;
+}

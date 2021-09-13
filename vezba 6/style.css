@@ -1,0 +1,27 @@
+.container{
+    border:1px solid black;
+    width:150px;
+    height: 150px;
+    background-color: yellowgreen;
+    position: relative;
+    animation-name: animacija ;
+    animation-duration: 5s;
+}
+@keyframes animacija {
+    0%{
+        background-color: turquoise; left: 0px; top: 0px;
+    }
+    25%{
+        background-color: violet; left: 200px; top: 0px;
+    }
+    50%{
+        background-color: yellow; left: 200px; top: 200px;
+    }
+    75%{
+        background-color: olive; left: 0px; top: 200px;
+    }
+    100%{
+        background-color: tomato; left: 0px; top: 0px;
+    }
+    
+}

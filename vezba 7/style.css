@@ -1,0 +1,23 @@
+body{
+    background-color: paleturquoise;
+    display: flex;
+}
+.tryout,
+.tryout-2{
+    width:600px;
+    height:600px;
+    border: 1px solid black;
+    background-color: peru;
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: olive;
+    }
+    .tryout,
+    .tryout-2{
+        width:600px;
+        height:600px;
+        flex-direction: column;
+        background-color: yellowgreen;
+    }
+}

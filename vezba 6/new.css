@@ -1,0 +1,25 @@
+.new{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: new;
+    position: relative;
+    animation-duration: 5s;
+}
+@keyframes new {
+    0%{
+        background-color: red; left: 0px; top: 0px;
+    }
+    25%{
+        background-color: royalblue; left: 100px; top: 0px;
+    }
+    50%{
+        background-color: gold; left: 100px; top: 100px;
+    }
+    75%{
+        background-color: skyblue; left: 0px; top: 100px;
+    }
+    100%{
+        background-color: tomato; left: 0px; top: 0px;
+    }
+}
