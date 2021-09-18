@@ -1,0 +1,48 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-1,.btn-2,.btn-3,.btn-4{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.btn-4{
+    justify-content: space-evenly;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn-1,.btn-2,.btn-3,.btn-4{
+    justify-content: space-evenly;
+}
+.btn-a,.btn-b,.btn-c{
+    width: 200px;
+    color: whitesmoke;
+}
+.btn-a:hover,.btn-b:hover,.btn-c:hover{
+    transform: rotate(180deg);
+    transition: 2s;
+}
+@media screen and (max-width:700px){
+    .main-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-1,.btn-2,.btn-3,.btn-4{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-a,.btn-b,.btn-c{
+        margin-bottom: 30px;
+    }
+
+}
