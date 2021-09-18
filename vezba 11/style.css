@@ -1,0 +1,10 @@
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 80wv;
+}
+.form1{
+    width: 100px;
+}

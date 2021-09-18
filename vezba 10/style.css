@@ -1,0 +1,85 @@
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-left: 20px;
+}
+.name{
+    border-bottom: 1px solid silver;
+}
+.prices{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 125px;
+}
+.prices{
+    display: flex;
+    height: 40%;
+    width: 80%;
+    border-radius: 1px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    position: absolute;
+}
+.free{
+    border: 1px solid silver;
+    border-radius: 5px;
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.start{
+    margin-left:10px;
+}
+.button-border{
+    border:1px solid blueviolet;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.color{
+    display: block;
+    border: 0;
+    background-color: blueviolet;
+    padding:5px 10px;
+    border-radius: 5px;
+    color:white;
+    line-height: 1;
+}
+.no-color{
+    display: block;
+    border: 0;
+    background-color: white;
+}
+.selects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    background-color: silver;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+@media screen and (max-width: 700px){
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .prices{
+        display: flex;
+        flex-direction: column;
+    }
+}

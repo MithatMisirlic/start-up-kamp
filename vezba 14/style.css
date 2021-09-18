@@ -1,0 +1,19 @@
+.main-div{
+    margin: auto;
+    border-radius: 2px;
+    width: 20%;
+    background-color: rgb(41, 61, 122);
+}
+.forms{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.button{
+    padding: 5px;
+    background-color: rgb(6, 6, 109);
+    border: 0;
+}
+.button:hover{
+    background-color: rgb(39, 39, 192);
+}
